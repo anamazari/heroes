@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.containerHeaderSmall {
+    background-color: #1CD1B0;
+    height: 38px;
+    width: 100%;
+    
+}
+
+.containerHeaderSmall p {
+    margin-left: 20px;
+}
+
+.containerHeaderBig {
+    background-color: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    height: 101px;
+    width: 100%;  
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 150px 15px;
+    
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    height: 520px;
+    
+}
+
+.cardHeart {
+    left: 20px;
+    position: absolute;
+    top: 15px;
+    
+}
+
+.cardBackgroundImage {
+    background-position: center;
+    background-size: cover;
+    height: 190px;
+    width: 100%;    
+}
+
+.cardPortrait {
+    background-size: cover;
+    left: 90px;
+    position: absolute;
+    top: 130px;
+    
+}
+
+.imgPortrait {
+    border-radius: 50%;
+}
+
+.cardDescription {
+    align-items: center;
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    height: 330px;
+    width: 300px;
+    
+}
+
+h2 {
+    padding: 70px 65px 10px;
+}
+
+.descriptionParagraph {
+    padding: 0 15px 40px;
+}
+
+button {
+    background-color:#00669F;
+    border: none;
+    color: #ffffff;
+    height: 50px;
+    padding: 15px;
+    width: 130px;
+}
+
+footer {
+    background-color: #00669F;
+    color: #ffffff;
+    height: 50px;
+    padding-top: 15px;
+    width: 100%;
+}
+
+.footerParagraph {
+    margin-left: 20px;
+}
